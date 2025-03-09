@@ -1,0 +1,22 @@
+﻿{
+  "name": "Ứng dụng Android",
+  "desc": "Đây là mô tả về ứng dụng",
+  "pic": "https://example.com/image.jpg",
+  "monhoc": [
+    {
+      "name": "Lập trình Java",
+      "desc": "Môn học về lập trình Java",
+      "pic": "https://example.com/java.jpg"
+    },
+    {
+      "name": "Lập trình Android",
+      "desc": "Môn học về lập trình Android",
+      "pic": "https://example.com/android.jpg"
+    }
+  ],
+  "language": {
+    "vn": {
+      "ten": "Tiếng Việt"
+    }
+  }
+}

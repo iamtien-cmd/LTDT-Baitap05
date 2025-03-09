@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập dữ liệu"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu vào bộ nhớ công khai"
+        android:onClick="savePublic"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu vào bộ nhớ riêng tư"
+        android:onClick="savePrivate"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đọc từ bộ nhớ công khai"
+        android:onClick="getPublic"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đọc từ bộ nhớ riêng tư"
+        android:onClick="getPrivate"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dữ liệu đọc từ file sẽ hiển thị ở đây"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="#EFEFEF"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
